@@ -131,10 +131,10 @@ export default function Prizes() {
         </div>
       </div>
 
-      {/* FIFA & Tekken Prizes */}
+      {/* FIFA & Clash Royle Prizes */}
       <div>
         <h3 className="text-2xl font-bold mb-4 text-center mt-16">
-          FIFA & Tekken Prizes
+          FIFA & Clash Royale
         </h3>
         <div className="grid md:grid-cols-20 gap-8 max-w-4xl mx-auto">
           <div
