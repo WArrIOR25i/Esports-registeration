@@ -3,7 +3,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Glitch Esports 2025",
+  title: "Glitch Esports 2026",
   description: "The ultimate national esports tournament experience",
     generator: 'v0.dev'
 }

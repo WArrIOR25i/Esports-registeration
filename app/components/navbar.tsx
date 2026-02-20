@@ -13,9 +13,9 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-purple-500/20">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/images/su-logo.png" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <img
-              src="/images/su-logo.png"
+              src="/images/logo2.jpeg"
               alt="Glitch Esports Logo"
               className="h-8 w-19 mr-3"
             />
