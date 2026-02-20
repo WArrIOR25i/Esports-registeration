@@ -34,7 +34,7 @@ export default function Schedule() {
               value="day3"
               className="data-[state=active]:bg-purple-600 data-[state=active]:text-white"
             >
-              Day 3
+              Finals
             </TabsTrigger>
           </TabsList>
 
@@ -50,10 +50,11 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 14, 2026</span>
+                    <span>March 28, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
-                   
+                    <Clock className="h-4 w-4 mr-2" />
+                    <span>10:00 AM - 10:30 AM</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <MapPin className="h-4 w-4 mr-2" />
@@ -66,13 +67,15 @@ export default function Schedule() {
             <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-bold">BGMI </h3>
-                 
+                  <h3 className="text-xl font-bold">BGMI - Finals Day-1</h3>
+                  <p className="text-gray-400">
+                    Teams compete in group matches
+                  </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 14, 2026</span>
+                    <span>March 28, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -89,13 +92,15 @@ export default function Schedule() {
             <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-bold">Valorant </h3>
-                  
+                  <h3 className="text-xl font-bold">Valorant - Finals Day-1</h3>
+                  <p className="text-gray-400">
+                    Teams compete in group matches
+                  </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 14, 2026</span>
+                    <span>March 28, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -114,13 +119,13 @@ export default function Schedule() {
             <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-bold">BGMI </h3>
-                 
+                  <h3 className="text-xl font-bold">BGMI - Finals Day-2</h3>
+                  <p className="text-gray-400">Top 8 teams compete</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
+                    <span>March 29, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -137,59 +142,15 @@ export default function Schedule() {
             <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-bold">Valorant </h3>
-                 
+                  <h3 className="text-xl font-bold">Valorant - Finals Day-2</h3>
+                  <p className="text-gray-400">
+                    Top 4 teams battle for finals spot
+                  </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <Clock className="h-4 w-4 mr-2" />
-                    <span>11:00 PM - 4:00 PM</span>
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    <span>AI Block</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-                        <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div>
-                  <h3 className="text-xl font-bold">Clash Royale </h3>
-                 
-                </div>
-                <div className="flex flex-col sm:flex-row gap-4 text-sm">
-                  <div className="flex items-center text-gray-300">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <Clock className="h-4 w-4 mr-2" />
-                    <span>11:00 PM - 4:00 PM</span>
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    <span>AI Block</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-                        <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div>
-                  <h3 className="text-xl font-bold">FreeFire </h3>
-                 
-                </div>
-                <div className="flex flex-col sm:flex-row gap-4 text-sm">
-                  <div className="flex items-center text-gray-300">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
+                    <span>March 29, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -216,60 +177,11 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 16, 2026</span>
+                    <span>March 30, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
-                    
-                  </div>
-                  <div className="flex items-center text-gray-300">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    <span>Main Stage</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-                        <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div>
-                  <h3 className="text-xl font-bold">Freefire</h3>
-                 
-                </div>
-                <div className="flex flex-col sm:flex-row gap-4 text-sm">
-                  <div className="flex items-center text-gray-300">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 16, 2026</span>
-                  </div>
-                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
-                    <span>11:00 PM - 4:00 PM</span>
-                  </div>
-                
-                  <div className="flex items-center text-gray-300">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    <span>Main Stage</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            
-                        <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-6">
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <div>
-                  <h3 className="text-xl font-bold">Clash Royale </h3>
-                 
-                </div>
-                <div className="flex flex-col sm:flex-row gap-4 text-sm">
-                  <div className="flex items-center text-gray-300">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 16, 2026</span>
-                  </div>
-                 <div className="flex items-center text-gray-300">
-                    <Clock className="h-4 w-4 mr-2" />
-                    <span>11:00 PM - 4:00 PM</span>
+                    <span>6:00 PM - 8:00 PM</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <MapPin className="h-4 w-4 mr-2" />
@@ -278,8 +190,6 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-
-
           </TabsContent>
         </Tabs>
       </div>

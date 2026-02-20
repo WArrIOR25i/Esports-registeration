@@ -14,7 +14,7 @@ export default function Hero() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("March 15, 2026 00:00:00").getTime();
+    const targetDate = new Date("March 15, 2025 00:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-500">
-              NEXUS TOURNAMENT 2026
+              NEXUS TOURNAMENT 2025
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-10">

@@ -15,7 +15,7 @@ export default function Games() {
       category: "FPS",
       description:
         "5v5 character-based tactical shooter with precise gunplay and unique agent abilities, *PAN India players who are unable to arrive at the campus venue may play from their respective locations.*",
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSe7n1-6Fy9P98N7aJGMwxRiuFw_owPe43mZxqJirbCw8ArfdA/viewform",
+      formLink: "https://forms.gle/AALWZ923s6t9DuYF6",
     },
     {
       id: 2,
@@ -25,35 +25,26 @@ export default function Games() {
       category: "Battle Royale",
       description:
         "Battlegrounds Mobile India - A battle royale where 100 players fight to be the last one standing.",
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfyGQjeTWhsMfX9zZMZjg4aXAW21Ry1RVpVwdjSYOuijSSMDQ/viewform",
+      formLink: "https://forms.gle/AALWZ923s6t9DuYF6",
     },
     {
       id: 3,
-      title: "EAFC26",
+      title: "FIFA",
       image:
         "https://media.contentapi.ea.com/content/dam/ea/fifa/images/fifa-generic-featured-tile-16x9.png.adapt.crop191x100.1200w.png", // Updated image URL
       category: "Sports",
       description:
         "The world's most popular football simulation game. Open to university students only.",
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSf-5k5Iem7h8o35n9DZD9G-mq9vYHR_Oxts1TT0_E-pMpw0Ag/viewform",
+      formLink: "https://forms.gle/ooJJ9tcXZM1vAy4X6",
     },
     {
       id: 4,
-      title: "Clash Royale",
-      image: "/images/clashroyle.png", // Updated image URL
-      category: "Strategy ",
-      description:
-        "Clash Royale is a real-time strategy mobile game developed and published by Supercell. It combines elements of collectible card games, tower defense, and multiplayer online battle arena.",
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdAy53oHL1C7fNGXCJtZazKjznUTtAN1bkTVthV_iv3URukpg/viewform",
-    },
-    {
-      id: 4,
-      title: "FreeFire",
-      image: "/images/freefire.png", // Updated image URL
+      title: "Tekken",
+      image: "https://media.graphassets.com/oB3fliYOQSSi9Za2sjlU", // Updated image URL
       category: "Fighting",
       description:
-        "A free-to-play survival shooter accessible to almost all smartphones across the globe. Take on foes in Battle Royale, Clash Squad, and other exciting modes.",
-      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSf9xlM-E0pQmr5jg1zCZS6tJgXfRIAduaGqL4a2bFdbptcJQA/viewform",
+        "Legendary 3D fighting game featuring martial arts combat. Open to university students only.",
+      formLink: "https://forms.gle/vVYM25gv6b3gTcc6A",
     },
   ];
 

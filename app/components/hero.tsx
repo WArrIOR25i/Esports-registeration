@@ -14,18 +14,11 @@ export default function Hero() {
   });
 
   useEffect(() => {
-   
-    const targetDate = new Date(2026, 2, 14, 9, 0, 0).getTime();
+    const targetDate = new Date("March 12, 2025 00:00:00").getTime();
 
     const interval = setInterval(() => {
-      const now = Date.now();
-      let distance = targetDate - now;
-
-      if (distance <= 0) {
-        clearInterval(interval);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-        return;
-      }
+      const now = new Date().getTime();
+      const distance = targetDate - now;
 
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
       const hours = Math.floor(
@@ -35,6 +28,11 @@ export default function Hero() {
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       setTimeLeft({ days, hours, minutes, seconds });
+
+      if (distance < 0) {
+        clearInterval(interval);
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+      }
     }, 1000);
 
     return () => clearInterval(interval);
@@ -52,14 +50,14 @@ export default function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-500">
-              GLITCH E-SPORTS 2026
+              GLITCH E-SPORTS 2025
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-10">
             The ultimate E-sports showdown. Glory awaits the champions.
           </p>
 
-         
+          {/* Countdown Timer */}
           <div className="grid grid-cols-4 gap-2 md:gap-4 max-w-2xl mx-auto mb-12">
             <div className="bg-black/50 backdrop-blur-sm border border-purple-500/30 rounded-lg p-3 md:p-6">
               <div className="text-3xl md:text-5xl font-bold text-white">

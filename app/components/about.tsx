@@ -15,7 +15,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-lg text-gray-300 mb-6">
-              Glitch Esports 2026 presented by Shoolini University brings
+              Glitch Esports 2025 presented by Shoolini University brings
               together the nation's elite gamers in an epic battle for glory and
               recognition. This premier esports event features multiple game
               titles, professional teams, and rising stars competing at the

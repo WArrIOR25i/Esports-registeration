@@ -50,7 +50,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 13, 2026</span>
+                    <span>March 13, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -68,12 +68,14 @@ export default function Schedule() {
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
                   <h3 className="text-xl font-bold">Valorant - Group Stage</h3>
-                  
+                  <p className="text-gray-400">
+                    Teams compete in group matches
+                  </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 13, 2026</span>
+                    <span>March 13, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -93,12 +95,14 @@ export default function Schedule() {
                   <h3 className="text-xl font-bold">
                     League of Legends - Group Stage
                   </h3>
-                 
+                  <p className="text-gray-400">
+                    Teams compete in group matches
+                  </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 13, 2026</span>
+                    <span>March 13, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -125,7 +129,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 14, 2026</span>
+                    <span>March 14, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -152,7 +156,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 14, 2026</span>
+                    <span>March 14, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -179,7 +183,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 14, 2026</span>
+                    <span>March 14, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -204,7 +208,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
+                    <span>March 15, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -229,7 +233,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
+                    <span>March 15, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />
@@ -254,7 +258,7 @@ export default function Schedule() {
                 <div className="flex flex-col sm:flex-row gap-4 text-sm">
                   <div className="flex items-center text-gray-300">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>March 15, 2026</span>
+                    <span>March 15, 2025</span>
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Clock className="h-4 w-4 mr-2" />

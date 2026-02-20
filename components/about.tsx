@@ -15,7 +15,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-lg text-gray-300 mb-6">
-              The Nexus Tournament 2026 brings together the world's elite gamers
+              The Nexus Tournament 2025 brings together the world's elite gamers
               in an epic battle for glory, recognition, and unprecedented
               prizes. This premier esports event features multiple game titles,
               professional teams, and rising stars competing at the highest
